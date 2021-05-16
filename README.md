@@ -56,4 +56,5 @@ The following video demonstrates
 - User receives slack notification.
 - User views test report dashbord.
 - User views test report analytics.
+<BR><BR>
 [![Web E2E tests in a pipeline](https://i.ytimg.com/vi/3LKqcDaCuQk/hqdefault.jpg)](https://youtu.be/yJrCiASh3_U)
