@@ -11,6 +11,8 @@ The objectives of this repository are :
 - Demonstrate `cypress` as a web based test automation framework.
 - Demonstrate test results dashbaords and analytics.
 
+If you want to view the recorded demonstration, please go to [Demo](#Demo) directly.
+
 ## Software pre-requisites
 - macOs (preferred for the demo).
 - Docker desktop, any stable version.
@@ -24,7 +26,7 @@ If user is familiar with Jenkins Pipeline, please use these `Pipeline As Code (P
 |[web-e2e-tests-pipeline.gdsl](web-e2e-tests-pipeline.gdsl) |Pipeline as a code defining build build parameters and scm configurations.| [New pipeline to run web-e2e-tests](images/new-web-e2e-tests-pipeline.png) |
 | [Jenkinsfile](Jenkinsfile)| All stages within web-e2e-tests and quality gate policies are defined as groovy code. | - |
 
-if user wants detailed instructions, please follow this [document](INSTALLATION.md).
+if user wants detailed installation instructions, please follow this [document](INSTALLATION.md).
 
 ## Pipeline strategy
 
@@ -48,5 +50,10 @@ if user wants detailed instructions, please follow this [document](INSTALLATION.
 
 ## Demo
 Here is a recorded demonstration. Happy to provide the same demo in a zoom meeting.<BR><BR>
-**Youtube Video**<BR>
-[![Web E2E tests in a pipeline](https://i.ytimg.com/vi/3LKqcDaCuQk/hqdefault.jpg)](https://youtu.be/3LKqcDaCuQk)
+The following video demonstrates
+- Pipeline job trigger.
+- Pipelien job final status.
+- User receives slack notification.
+- User views test report dashbord.
+- User views test report analytics.
+[![Web E2E tests in a pipeline](https://i.ytimg.com/vi/3LKqcDaCuQk/hqdefault.jpg)](https://youtu.be/yJrCiASh3_U)
