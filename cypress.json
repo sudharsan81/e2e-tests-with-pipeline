@@ -1,0 +1,9 @@
+{
+    "projectId": "vu5pyz",
+    "env" : {
+        "url": {
+            "demo": "https://demo.banked.com/",
+            "prod": "https://randomuser.me/"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+pipelineJob("web-e2e-tests") {
+    displayName('web e2e tests')
+    description('Pipeline to run web e2e tests')
+
+    parameters {
+        stringParam('BRANCH', 'main', 'Name of the branch in web-e2e-tests repo to run tests with.')
+        stringParam('ENV', 'prod', 'QA Environment against which the test needs to run.')
+        stringParam('BROWSER', 'chrome', 'Supported browsers are chrome, firefox, edge and electron.')
+    }
+
+    properties {
+        githibProjectUrl('https://github.com/sudharsan81/e2e-tests-with-pipeline.git')
+    }
+
+    definition {
+        cpsScm {
+            scm {
+                git {
+                    remote {
+
+                    }
+                    branch ('main')
+                    extensions {
+                        wipeOutWorkspace()
+                    }
+                }
+            }
+            scriptPath("Jenkins")
+        }
+    }
+}

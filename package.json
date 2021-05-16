@@ -1,0 +1,23 @@
+{
+  "name": "e2e-tests-with-pipeline",
+  "version": "1.0.0",
+  "description": "This repository contains a web e2e framework along with pipeline As A Code.",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "npx cypress run --headless --spec ./cypress/integration/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudharsan81/e2e-tests-with-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudharsan81/e2e-tests-with-pipeline/issues"
+  },
+  "homepage": "https://github.com/sudharsan81/e2e-tests-with-pipeline#readme",
+  "devDependencies": {
+    "cypress": "^7.3.0"
+  }
+}
