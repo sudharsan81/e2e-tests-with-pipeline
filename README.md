@@ -48,5 +48,5 @@ if user wants detailed instructions, please follow this [document](INSTALLATION.
 
 ## Demo
 Here is a recorded demonstration. Happy to provide the same demo in a zoom meeting.<BR><BR>
-**Youtube Video**
+**Youtube Video**<BR>
 [![Web E2E tests in a pipeline](https://i.ytimg.com/vi/3LKqcDaCuQk/hqdefault.jpg)](https://youtu.be/3LKqcDaCuQk)
