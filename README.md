@@ -58,3 +58,8 @@ The following video demonstrates
 - User views test report analytics.
 <BR><BR>
 [![Web E2E tests in a pipeline](https://i.ytimg.com/vi/3LKqcDaCuQk/hqdefault.jpg)](https://youtu.be/yJrCiASh3_U)
+<BR><BR>
+Test Results Analytics for the above demo can be found here https://dashboard.cypress.io/projects/vu5pyz/analytics/runs-over-time
+<BR><BR>
+Test reports for the above demo can be found here https://dashboard.cypress.io/projects/vu5pyz/runs
+<BR>
