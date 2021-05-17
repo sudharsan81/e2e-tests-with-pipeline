@@ -7,7 +7,7 @@ The objectives of this repository are :
 - Define pipeline, pipeline plugins and pipeline tool configurations as `code`.  commonly known as `Pipeline As Code (PAC)` and `Pipeline Configuration As Code (PCaC)`.
 - Define pipeline gating policies.
 - Describe various stages of the pipeline like initialisation, build and run stages.
-- Demonstrate contanarisation as a reliable rumtime to run tests within pipeline agents.
+- Demonstrate contanerisation as a reliable rumtime to run tests within pipeline agents.
 - Demonstrate `cypress` as a web based test automation framework.
 - Demonstrate test results dashbaords and analytics.
 
@@ -52,7 +52,7 @@ if user wants detailed installation instructions, please follow this [document](
 Here is a recorded demonstration. Happy to provide the same demo in a zoom meeting.<BR><BR>
 The following video demonstrates
 - Pipeline job trigger.
-- Pipelien job final status.
+- Pipeline job final status.
 - User receives slack notification.
 - User views test report dashbord.
 - User views test report analytics.
